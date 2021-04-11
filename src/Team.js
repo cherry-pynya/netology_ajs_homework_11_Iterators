@@ -1,4 +1,7 @@
 export default class Team {
+  constructor() {
+    this.members = Object.values(this)
+  }
   [Symbol.iterator]() {
     const { members } = this;
     let index = 0;

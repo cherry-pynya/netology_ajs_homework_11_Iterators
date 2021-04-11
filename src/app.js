@@ -7,7 +7,7 @@ team.ivan = { name: 'durak' };
 team.masha = { name: 'dura' };
 team.nikita = { name: 'molodec' };
 const array = [];
-console.log(team);
+console.log(team.members);
 for (const key of team) {
   console.log(key);
   array.push(key);
