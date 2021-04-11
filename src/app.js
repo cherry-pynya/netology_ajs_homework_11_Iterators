@@ -1,6 +1,7 @@
 import Team from './Team.js';
 import canIterate from './canIterate.js';
 
+
 const team = new Team();
 team.ivan = { name: 'durak' };
 team.masha = { name: 'dura' };
@@ -21,3 +22,4 @@ const d = canIterate(10); // false
 const e = canIterate('Netology'); // true
 
 console.log(a, b, c, d, e);
+

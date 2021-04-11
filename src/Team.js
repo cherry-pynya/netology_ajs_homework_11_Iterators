@@ -1,11 +1,11 @@
 export default class Team {
   [Symbol.iterator]() {
-    const values = Object.values(this);
+    const { members } = this;
     let index = 0;
     return {
       next() {
-        if (index <= values.length) {
-          const val = values[index];
+        if (index <= members.length) {
+          const val = members[index];
           index++;
           return {
             value: val,
